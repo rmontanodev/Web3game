@@ -1,5 +1,5 @@
 body {
-  background-image: url("./assets/BgImage.png");
+  background-color:green !important;
   background-size: cover;
   min-height: 100dvh;
 }

@@ -20,6 +20,7 @@ export default function SelectWallet({ button }) {
   const { setAddress, setProvider } = usePlayerContext();
   const connectMetamask = async () => {
     metamaskConnect().then((res) => {
+      console.log("heyyy")
       setIsToggled(false);
       localStorage.setItem("provider", "metamask");
       if (res.newUser) {
